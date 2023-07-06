@@ -6,5 +6,5 @@ name = ''
 
 while name != 'Sayed'.lower():
     print('Please type your name: ')
-    name = input()
+    name = input().lower()
 print('Thank you!', name)
