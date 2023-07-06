@@ -8,4 +8,4 @@ while True:
     if name == 'Sayed'.lower():
         break
 
-print('Thank you!')
+print('Thank you!', name)
