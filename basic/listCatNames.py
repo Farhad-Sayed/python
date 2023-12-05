@@ -7,7 +7,8 @@ while True:
     name = input()
     if name == '':
         break
-    catNames = catNames + [name] # list caoncatation
+    # list concatenation
+    catNames = catNames + [name]
 
 print('My cats are:')
 for name in catNames:
