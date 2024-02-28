@@ -22,3 +22,9 @@ with log.progress(f"Attempting to crack {provided_hash} \n") as p:
                 exit()
             attempts += 1
         p.failure("Password hash not found!!!")
+
+"""
+The .encode('latin-1') method is used to encode the password strings into bytes using the Latin-1 encoding. 
+This encoding ensures that each character in the string is represented by a single byte, which makes it suitable for hashing and handling binary data.
+Cryptographic hash functions like SHA-256 operate on bytes rather than strings. Therefore, the strings representing passwords need to be converted to bytes before hashing.
+"""
