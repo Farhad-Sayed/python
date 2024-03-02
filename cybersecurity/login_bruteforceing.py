@@ -1,5 +1,5 @@
 import requests
-# since we are working with web application
+# Using requests module since we are working with web application
 import sys
 
 target = 'http://192.168.216.129/dvwa/login.php'
